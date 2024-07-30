@@ -1,0 +1,5 @@
+/* Specific CSS code for the Book views where file is included */
+img{
+    max-width: 100%;
+    max-height: 500px;
+}

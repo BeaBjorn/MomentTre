@@ -1,0 +1,60 @@
+@model MomentTre.Models.Book
+@* Create view for Books *@
+@* Setting the view title to Create *@
+@{
+    ViewData["Title"] = "Create";
+}
+@* Including the book.css stylesheet *@
+<link rel="stylesheet" href="~/css/book.css" />
+
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+<div>
+    @* Link back to book index view *@
+    <a asp-action="Index">Back to List</a>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            @* validation error message for form *@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group my-3">
+                @* Label and input fields for book name
+                Error message if field is not set *@
+                <label asp-for="Name" class="control-label mb-2"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                @* Label and input fields for book description
+                Error message if field is not set *@
+                <label asp-for="Description" class="control-label mb-2"></label>
+                <textarea rows="4" cols="50" asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                @* Label and input fields for book image *@
+                <label asp-for="ImageFile" class="control-label mb-2"></label>
+                <input asp-for="ImageFile" class="form-control" accept="image/*" />
+            </div>
+            <div class="form-group my-3">
+                @* Label and select drop down with list of authors
+                Error message if field is not set *@
+                <label asp-for="AuthorId" class="control-label mb-2">Author</label>
+                <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                @* Add book *@
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

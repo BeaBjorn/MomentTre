@@ -1,0 +1,76 @@
+@model IEnumerable<MomentTre.Models.Book>
+@* Main view for Book *@
+@* Setting the view title to "Books" *@
+@{
+    ViewData["Title"] = "Books";
+}
+
+@* Including the book.css stylesheet *@
+<link rel="stylesheet" href="~/css/book.css" />
+
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+
+@* Displaying the table headers *@
+<div class="col-10">
+    <div class="row">
+        <div class="col-3">
+        </div>
+        <div class="col-3 fw-bold">
+            Title
+        </div>
+        <div class="col-3 fw-bold">
+            @* Displaying the display name for the author model *@
+            @Html.DisplayNameFor(model => model.Author)
+        </div>
+        <div class="col-3">
+            </th>
+        </div>
+    </div>
+</div>
+
+<div class="border-top border-2 border-dark mt-2">
+    @* A foreach loop, looping through all books *@
+    @foreach (var item in Model)
+    {
+        <div class="row d-flex align-items-center py-2 border-bottom border-1">
+            <div class="d-flex align-items-center position-relative col-10">
+                <div class="col-3">
+                    @* Displaying the book image if it has been set, otherwise a placeholder image is displayed *@
+                    @if (string.IsNullOrEmpty(item.ImageName))
+                    {
+                        <img style="width:50px; height:50px;" src="images/placeholder.png" alt="Fallback Image" />
+                    }
+                    else
+                    {
+                        <a href="images/@item.ImageName">
+                            <img style="width:50px; height:50px;" src="images/@Html.DisplayFor(modelItem => item.ImageName)"
+                                alt="Book Image" />
+                        </a>
+                    }
+                </div>
+                <div class="col-3">
+                    @* Displaying the book name *@
+                    @Html.DisplayFor(modelItem => item.Name)
+                </div>
+                <div class="col-3">
+                    @* Displaying the name of the author of the book *@
+                    @Html.DisplayFor(modelItem => item.Author.Name)
+                </div>
+                <div class="text-end col-2">
+                    <a class="stretched-link" asp-action="Details" asp-route-id="@item.Id"></a>
+                </div>
+            </div>
+            <div class="col-auto">
+                @* Links to edit and delete views *@
+                <a class="btn btn-primary me-2 e-btn" asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+                <a class="btn btn-danger ms-5" asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </div>
+        </div>
+    }
+</div>
+
+<p class="mt-4">
+    @* Link to create view *@
+    <a class="btn btn-primary add-book" asp-action="Create">Add book</a>
+</p>

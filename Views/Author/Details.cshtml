@@ -1,0 +1,38 @@
+@model MomentTre.Models.Author
+@* Details view for Author *@
+@* Setting the view title to the name set in the model *@
+@{
+    ViewData["Title"] = @Model.Name;
+}
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+
+<div>
+    <h4>@Html.DisplayFor(model => model.Name)</h4>
+    <div class="row d-flex align-items-center">
+        @* Link back to author index view *@
+        <a class="col" asp-action="Index">Back to List</a>
+        @* Link to author edit view *@
+        <a class="col-2 btn btn-primary me-3" asp-action="Edit" asp-route-id="@Model.Id">Edit</a>
+    </div>
+    <hr />
+
+    <div>
+        <h5>Books</h5>
+        @* Looping through all book written by author *@
+        @if (Model.Books != null && Model.Books.Any())
+        {
+            @foreach (var book in Model.Books)
+            {
+                <div>
+                    @* Displaying book name *@
+                    <p>@book.Name</p>
+                </div>
+            }
+        }
+        else
+        {
+            <p>No books available for this author.</p>
+        }
+    </div>
+</div>

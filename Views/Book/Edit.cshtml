@@ -1,0 +1,83 @@
+@model MomentTre.Models.Book
+@* Edit view for Books *@
+@* Setting the view title to "Edit" *@
+@{
+    ViewData["Title"] = "Edit";
+}
+@* Including the book.css stylesheet *@
+<link rel="stylesheet" href="~/css/book.css" />
+
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+<div>
+    @* Link back to book index view *@
+    <a asp-action="Index">Back to List</a>
+</div>
+<hr />
+<div class="row">
+    @* Display image if set *@
+    @if (!string.IsNullOrEmpty(Model.ImageName))
+    {
+        <div class="col-3 me-5">
+            <img src="~/images/@Model.ImageName" alt="Current Image" />
+        </div>
+    }
+
+    <div class="col-md-4">
+        @* Form to edit book information *@
+        @* Using multipart form-data for file upload *@
+        <form asp-action="Edit" enctype="multipart/form-data">
+            @* validation error message for form *@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group mb-3">
+                @* Label and input fields for book name
+                Error message if field is not set *@
+                <label asp-for="Name" class="control-label mb-2"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                @* Label and input fields for book description
+                Error message if field is not set *@
+                <label asp-for="Description" class="control-label mb-2"></label>
+                <textarea rows="4" cols="50" asp-for="Description" class="form-control"></textarea>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group my-3">
+                @* Display additional message if an image has already been set, else display image field label *@
+                @if (!string.IsNullOrEmpty(Model.ImageName))
+                {
+                    <label asp-for="ImageFile" class="control-label mb-2"><i>This book has already got an image.<br />Upload
+                            a new image to replace current image or leave
+                            blanc to keep current image</i></label>
+                }
+                else
+                {
+                    <label asp-for="ImageFile" class="control-label mb-2"></label>
+                }
+                @* Label and input fields for book image *@
+                <label asp-for="ImageFile" class="control-label mb-2 visually-hidden"></label>
+                <input asp-for="ImageFile" type="file" class="form-control" />
+            </div>
+            <input type="hidden" asp-for="ImageName" />
+            <div class="form-group my-3">
+                @* Label and select drop down with list of authors
+                Error message if field is not set *@
+                <label asp-for="AuthorId" class="control-label mb-2">Author</label>
+                <select asp-for="AuthorId" class="form-control" asp-items="ViewBag.AuthorId"></select>
+                <span asp-validation-for="AuthorId" class="text-danger"></span>
+            </div>
+            @* Submit changes *@
+            <div class="form-group text-end">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

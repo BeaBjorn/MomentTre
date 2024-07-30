@@ -1,0 +1,345 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/obj/Debug/net8.0/scopedcss/projectbundle/MomentTre.bundle.scp.css",
+      "PackagePath": "staticwebassets/MomentTre.bundle.scp.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/css/book.css",
+      "PackagePath": "staticwebassets/css/book.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/Group69-svg240639392.svg",
+      "PackagePath": "staticwebassets/images/Group69-svg240639392.svg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/annie-spratt-thI_CZAB0MY-unsplash240535776.jpg",
+      "PackagePath": "staticwebassets/images/annie-spratt-thI_CZAB0MY-unsplash240535776.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book1240352114.jpg",
+      "PackagePath": "staticwebassets/images/book1240352114.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book2240247448.jpg",
+      "PackagePath": "staticwebassets/images/book2240247448.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book2240259917.jpg",
+      "PackagePath": "staticwebassets/images/book2240259917.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book3240341244.jpg",
+      "PackagePath": "staticwebassets/images/book3240341244.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book4240313383.jpg",
+      "PackagePath": "staticwebassets/images/book4240313383.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book5240400097.jpg",
+      "PackagePath": "staticwebassets/images/book5240400097.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book6245640901.jpg",
+      "PackagePath": "staticwebassets/images/book6245640901.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/book7240322564.jpg",
+      "PackagePath": "staticwebassets/images/book7240322564.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/ef-core-logo-svg242057352.svg",
+      "PackagePath": "staticwebassets/images/ef-core-logo-svg242057352.svg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/logo.svg",
+      "PackagePath": "staticwebassets/images/logo.svg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/mt_taranaki242724538.jpg",
+      "PackagePath": "staticwebassets/images/mt_taranaki242724538.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/mt_taranaki244413726.jpg",
+      "PackagePath": "staticwebassets/images/mt_taranaki244413726.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/mt_taranaki245058367.jpg",
+      "PackagePath": "staticwebassets/images/mt_taranaki245058367.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/mt_taranaki245113352.jpg",
+      "PackagePath": "staticwebassets/images/mt_taranaki245113352.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/mt_taranaki245602575.jpg",
+      "PackagePath": "staticwebassets/images/mt_taranaki245602575.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/placeholder.png",
+      "PackagePath": "staticwebassets/images/placeholder.png"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/images/yifei-chen-QWsdUMj8amc-unsplash(1)241616844.jpg",
+      "PackagePath": "staticwebassets/images/yifei-chen-QWsdUMj8amc-unsplash(1)241616844.jpg"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/beatricebjorn/Desktop/year_two/dotnet/moment3/MomentTre/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.MomentTre.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.MomentTre.props",
+      "PackagePath": "build\\MomentTre.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.MomentTre.props",
+      "PackagePath": "buildMultiTargeting\\MomentTre.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.MomentTre.props",
+      "PackagePath": "buildTransitive\\MomentTre.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

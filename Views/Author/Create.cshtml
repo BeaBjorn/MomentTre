@@ -1,0 +1,40 @@
+@model MomentTre.Models.Author
+@* Create view for Author *@
+@* Setting the view title to Add author *@
+@{
+    ViewData["Title"] = "Add author";
+}
+
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+
+<div>
+    @* Link back to book index view *@
+    <a asp-action="Index">Back to List</a>
+</div>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            @* validation error message for form *@
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                @* Label and input fields for author name
+                Error message if field is not set *@
+                <label asp-for="Name" class="control-label mb-2"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-3">
+                @* Add author *@
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

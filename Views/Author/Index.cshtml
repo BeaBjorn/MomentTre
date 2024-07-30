@@ -1,0 +1,54 @@
+@model IEnumerable<MomentTre.Models.Author>
+@* Main view for Author *@
+@* Setting the view title to "Author" *@
+@{
+    ViewData["Title"] = "Authors";
+}
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+
+@* Displaying the table headers *@
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @* Displaying the display name for the model *@
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                Books
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @* A foreach loop, looping through all authors *@
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @* Displaying the author name *@
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @* Looping through all books linked to each author *@
+                    @foreach (var book in item.Books)
+                    {
+                        @* Displaying the name of the book *@
+                        <p>@book.Name</p>
+                    }
+                </td>
+                <td>
+                    @* Options to edit, view and delete authors *@
+                    <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<p>
+    @* Link to the create view for authors *@
+    <a class="btn btn-primary add-book" asp-action="Create">Create New</a>
+</p>

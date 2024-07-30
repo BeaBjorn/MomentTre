@@ -1,0 +1,69 @@
+@model MomentTre.Models.Book
+@* Delete view for Books *@
+@* Setting the view title to Delete *@
+@{
+    ViewData["Title"] = "Delete";
+}
+@* Including the book.css stylesheet *@
+<link rel="stylesheet" href="~/css/book.css" />
+@* Setting the title of the view to the view data title *@
+<h1 class="my-5">@ViewData["Title"]</h1>
+
+<h2 class="mb-3">Are you sure you want to delete <i>@Model.Name</i>?</h2>
+@* Link back to book index view *@
+<a class="" asp-action="Index">Back to List</a>
+
+<hr />
+
+<div class="row">
+    <div class="col-3 me-5">
+        @* Displaying the book image if it has been set, otherwise a placeholder image is displayed *@
+        @if (!string.IsNullOrEmpty(Model.ImageName))
+        {
+            <div>
+                <img src="~/images/@Model.ImageName" alt="Current Image" />
+            </div>
+        }
+        else
+        {
+            <div>
+                <img src="~/images/placeholder.png" alt="Current Image" />
+            </div>
+        }
+    </div>
+
+    <div class="col">
+
+        <dl class="row">
+            <dt class="col-sm-2 mb-4">
+                @* Displaying "label" name for the book name *@
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd class="col-sm-10 mb-4">
+                @* Displaying the book name *@
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt class="col-sm-2 mb-4">
+                @* Displaying "label" name for the book description *@
+                @Html.DisplayNameFor(model => model.Description)
+            </dt>
+            <dd class="col-sm-10 mb-4">
+                @* Displaying the book description *@
+                @Html.DisplayFor(model => model.Description)
+            </dd>
+            <dt class="col-sm-2 mb-4">
+                @* Displaying "label" name for the book author name *@
+                @Html.DisplayNameFor(model => model.Author)
+            </dt>
+            <dd class="col-sm-10 mb-4">
+                @* Displaying the book author name *@
+                @Html.DisplayFor(model => model.Author.Name)
+            </dd>
+        </dl>
+    </div>
+</div>
+@* Form to delete book *@
+<form asp-action="Delete" class="text-end">
+    <input type="hidden" asp-for="Id" />
+    <input type="submit" value="Delete" class="btn btn-danger w-25" />
+</form>
